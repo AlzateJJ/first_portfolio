@@ -1,5 +1,5 @@
 function updateCopyrightYear() {
-    const currentYear = new Date().getFullYear
+    const currentYear = new Date().getFullYear()
     const copyrightElement = document.querySelector('.footer__copy')
 
     if (copyrightElement) {
