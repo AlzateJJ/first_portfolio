@@ -5,8 +5,10 @@ function parallax(e) {
     if (e) {
         imageDom.forEach(img => {
             const speed = img.getAttribute('data-speed')
+            // console.log(img.getAttribute('data-speed'))
             const x = (window.innerWidth - e.pageX * speed) / 100
             const y = (window.innerHeight - e.pageY * speed) / 100
+            console.log(`x=${x}, y=${y}`)
 
             img.style.transform = `translateX(${x}px translateY(${y}px))`
         })
