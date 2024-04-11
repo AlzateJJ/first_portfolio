@@ -139,6 +139,13 @@
 
   .btn--primary {
     background-color: var(--bg-color-buttons);
+    /* padding: 0; */
+
+    .span__download {
+      color: var(--text-primary);
+      display: block;
+      width: 100%;
+    }
   }
 
   ::-webkit-scrollbar {
