@@ -20,7 +20,11 @@ function sendEmail(e) {
   }
 
   if (params.name && params.email && params.subject && params.message) {
-    emailjs.send('service_xdjou6w', params).then(openModal())
+    console.log(params)
+    //emailjs.send("service_xdjou6w","template_0om4a7q"
+    emailjs.send("service_xdjou6w","template_0om4a7q", params)
+      .then(openModal())
+      .catch(err => console.log(err))
   }
 
 }
