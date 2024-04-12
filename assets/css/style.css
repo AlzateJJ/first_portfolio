@@ -412,6 +412,7 @@
 .home {
   background-color: var(--bg-color-section1);
   position: relative;
+  /* height: 100vh; */
 
   /* descomantar esto para probar */
   overflow: hidden;
@@ -484,7 +485,7 @@
 
     /* para controlar la imagen principal: */
     .home__image {
-      width: clamp(min(320px, 100%), 85vw, 445px);
+      width: clamp(min(320px, 100%), 50vw, 340px);
       height: auto;
       margin: 0 auto;
     }
