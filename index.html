@@ -58,7 +58,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="navbar__toggles">
+            <!-- <div class="navbar__toggles">
                 <div class="navbar__toggle--darkmode">
                     <input type="checkbox" id="darkmode-toggle" class="navbar__toggle--darkmode-input">
                     <label for="darkmode-toggle" class="navbar__toggle--darkmode-label">
@@ -71,7 +71,7 @@
                     class="navbar__toggle--language-input">
                     <label for="language-toggle" class="navbar__toggle--language-label"></label>
                 </div>
-            </div>
+            </div> -->
             <a href="#nav"><i class='bx bx-menu btn__open navbar__icon'></i></a>
         </nav>
     </header>
@@ -129,9 +129,11 @@
 
             <div class="about__container grid--container">
                 <p class="about__description">
-                    Soy un apasionado por la programación, y las posibilidades que ofrece para la resolución de problemas, por eso desde hace más de 5 
-                    años vengo solucionando problemas de todo tipo con esta poderosa herramienta, disfruto mucho de jugar fútbol, de pasar tiempo
-                    en familia y actividades en la naturaleza.
+                    Soy una persona proactiva, en constante aprendizaje, actualmente 
+                    desarrollador Front-End y en camino a ser desarrollador web Full-Stack, 
+                    mientras curso mi séptimo semestre de ingeniería de sistemas. Me desenvuelvo 
+                    con naturalidad en equipos de trabajo, lo cual combinado con mis habilidades, 
+                    contribuye en gran medida al logro de objetivos colectivos.
                 </p>
 
                 <div class="about__cards">
@@ -217,7 +219,7 @@
                                     <h3 class="skills__card-title">React</h3>
                                     <p>He desarrollado varios proyectos con React, en los que 
                                         he utilizado también librerías como Redux toolkit y
-                                        React-Router-Dom
+                                        React-Router-Dom.
                                     </p>
                                 </div>
 
@@ -277,10 +279,11 @@
             </div>
         </section>
 
-        <section id="projects" class="projects section">
+        <!-- <section id="projects" class="projects section">
             <h2 class="section__title">Proyectos</h2>
             <div class="projects__container grid--container">
-                <!-- proyecto 1 -->
+                
+
                 <div class="projects__project">
                     <div class="projects__inner grid--container">
                         <div class="project__image">
@@ -301,7 +304,7 @@
                     </div>
                 </div>
 
-                <!-- proyecto 2 -->
+                
                 <div class="projects__project">
                     <div class="projects__inner grid--container">
                         <div class="project__image">
@@ -325,11 +328,11 @@
                     </div>
                 </div>
 
-                <!-- proyecto 3 -->
+                
                 <div class="projects__project">
                     <div class="projects__inner grid--container">
                         <div class="project__image">
-                            <img src="assets/img/project3.jpg" alt="project 3">
+                            <img src="assets/img/project3.png" alt="project 3">
                         </div>
                         <div class="projects__info">
                             <h3 class="projects__name">Proyecto 3</h3>
@@ -348,6 +351,237 @@
                     </div>
                 </div>
 
+            </div>
+        </section> -->
+
+        <section class="projects">
+            <h2 class="projects__main_title">Proyectos</h2>
+            <div class="projects__wrapper">
+                <!-- Project 1 -->
+                <article class="project">
+                    <div class="img__container">
+                        <img src="./assets/imgs__proyectos/project1.jpg" alt="" class="project__img">
+                    </div>
+                    <div class="project__description">
+                        <h3 class="project__description-title">
+                            Wordle
+                        </h3>
+                        <p class="project__description-paragraph">
+                            En este proyecto desarrollé un Wordle, que funciona realmente como la 
+                            <a href="https://wordlegame.org/es" target="_blank" class="description__link">versión online</a>, 
+                            pero yo lo desarrollé con python, los inputs y outputs se muestran en consola.
+                        </p>
+                    </div>
+                    <div class="projects__buttons">
+                        <button class="btn projects__button" type="button">
+                            <a href="https://colab.research.google.com/drive/10dIrYUPWymOsE_uqLSmRdurZzRN6pCYt?usp=sharing" target="_blank" class="project__btn-link">
+                                IR AL PROYECTO
+                            </a>
+                        </button>
+                        <button class="btn projects__button" type="button">
+                            <a href="https://colab.research.google.com/drive/10dIrYUPWymOsE_uqLSmRdurZzRN6pCYt?usp=sharing" target="_blank" class="project__btn-link">
+                                VER CÓDIGO
+                            </a>
+                        </button>
+                    </div>
+                </article>
+                <!-- Project 2 -->
+                <article class="project">
+                    <div class="img__container">
+                        <img src="./assets/imgs__proyectos/project2.png" alt="" class="project__img">
+                    </div>
+                    <div class="project__description">
+                        <h3 class="project__description-title">
+                            Apuntado
+                        </h3>
+                        <p class="project__description-paragraph">
+                            El 'Apuntado' es muy popular en mi ciudad natal (Medellín), es una versión
+                            con algunas modificaciones del juego 'Terna, terna, cuarta y sobrante'. Lo desarrollé con Python, 
+                            usando Tkinter para la interfáz de usuario.
+                        </p>
+                    </div>
+                    <div class="projects__buttons">
+                        <button class="btn projects__button" type="button">
+                            <a href="https://github.com/bedoyasanti/Apuntado" target="_blank" class="project__btn-link">
+                                IR AL PROYECTO
+                            </a>
+                        </button>
+                        <button class="btn projects__button" type="button">
+                            <a href="https://github.com/bedoyasanti/Apuntado" target="_blank" class="project__btn-link">
+                                VER CÓDIGO
+                            </a>
+                        </button>
+                    </div>
+                </article>
+                <!-- Project 3 -->
+                <article class="project">
+                    <div class="img__container">
+                        <img src="./assets/imgs__proyectos/project3.png" alt="" class="project__img">
+                    </div>
+                    <div class="project__description">
+                        <h3 class="project__description-title">
+                            Landing page Cultivo de aguacate Hass
+                        </h3>
+
+                        <p class="project__description-paragraph">
+                            Esta es una página web responsive, desarrollada con HTML y CSS, en la 
+                            que se muestra la información más relevante de una empresa exportadora de aguacate Hass.
+                        </p>
+                    </div>
+                    <div class="projects__buttons">
+                        <button class="btn projects__button" type="button">
+                            <a href="https://cultivoelrefugio.netlify.app/" target="_blank" class="project__btn-link">
+                                IR AL PROYECTO
+                            </a>
+                        </button>
+                        <button class="btn projects__button" type="button">
+                            <a href="https://github.com/AlzateJJ/cultivo-el-refugio" target="_blank" class="project__btn-link">
+                                VER CÓDIGO
+                            </a>
+                        </button>
+                    </div>
+                </article>
+                <!-- Project 4 -->
+                <article class="project">
+                    <div class="img__container">
+                        <img src="./assets/imgs__proyectos/project4.png" alt="" class="project__img">
+                    </div>
+                    <div class="project__description">
+                        <h3 class="project__description-title">
+                            Galleta de la fortuna
+                        </h3>
+                        <p class="project__description-paragraph">
+                            Esta página de la galleta de la fortuna, desarrollada con HTML, CSS, JavaScript y React, 
+                            después de un click del usuario, cambia la interfaz y muestra una frase aleatoria.
+                        </p>
+                    </div>
+                    <div class="projects__buttons">
+                        <button class="btn projects__button" type="button">
+                            <a href="https://fortune-cookie-by-jjalzate.netlify.app/" target="_blank" class="project__btn-link">
+                                IR AL PROYECTO
+                            </a>
+                        </button>
+                        <button class="btn projects__button" type="button">
+                            <a href="https://github.com/AlzateJJ/fortune_cookie_jjalzate" target="_blank" class="project__btn-link">
+                                VER CÓDIGO
+                            </a>
+                        </button>
+                    </div>
+                </article>
+                <!-- Project 5 -->
+                <article class="project">
+                    <div class="img__container">
+                        <img src="./assets/imgs__proyectos/project5.png" alt="" class="project__img">
+                    </div>
+                    <div class="project__description">
+                        <h3 class="project__description-title">
+                            El Clima en tu ubicación
+                        </h3>
+                        <p class="project__description-paragraph">
+                            El clima en tu ubicación, es una página responsive desarrollada con HTML, CSS, JavaScript y React y por medio de la  
+                            API Geolocation de los navegadores, y la API Open Weather Map, se le indica al usuario 
+                            cuál es el clima en la zona que está actualmente.
+                        </p>
+                    </div>
+                    <div class="projects__buttons">
+                        <button class="btn projects__button" type="button">
+                            <a href="https://weather-byjjalzate.netlify.app/" target="_blank" class="project__btn-link">
+                                IR AL PROYECTO
+                            </a>
+                        </button>
+                        <button class="btn projects__button" type="button">
+                            <a href="https://github.com/AlzateJJ/weather-app" target="_blank" class="project__btn-link">
+                                VER CÓDIGO
+                            </a>
+                        </button>
+                    </div>
+                </article>
+                <!-- Project 6 -->
+                <article class="project">
+                    <div class="img__container">
+                        <img src="./assets/imgs__proyectos/project7.png" alt="" class="project__img">
+                    </div>
+                    <div class="project__description">
+                        <h3 class="project__description-title">
+                            Personajes y Mapas Rick & Morty
+                        </h3>
+                        <p class="project__description-paragraph">
+                            La página de Personajes y Mapas Rick & Morty, es una página web responsive, desarrollada con 
+                            HTML, CSS, JavaScript y React, y por medio de la API de Rick y Morty, se despliegan todos los
+                            personajes de alguno de los 126 mapas del programa, después de un input del usuario.
+                        </p>
+                    </div>
+                    <div class="projects__buttons">
+                        <button class="btn projects__button" type="button">
+                            <a href="https://rick-morty-jj.netlify.app/" target="_blank" class="project__btn-link">
+                                IR AL PROYECTO
+                            </a>
+                        </button>
+                        <button class="btn projects__button" type="button">
+                            <a href="https://github.com/AlzateJJ/Rick-Morty-App" target="_blank" class="project__btn-link">
+                                VER CÓDIGO
+                            </a>
+                        </button>
+                    </div>
+                </article>
+                <!-- Project 7 -->
+                <article class="project">
+                    <div class="img__container">
+                        <img src="./assets/imgs__proyectos/project6.png" alt="" class="project__img">
+                    </div>
+                    <div class="project__description">
+                        <h3 class="project__description-title">
+                            CRUD de usuarios
+                        </h3>
+                        <p class="project__description-paragraph">
+                            El CRUD de usuarios, es una página web responsive desarrollada con HTML, CSS, JavaScript, React y React-Hook-Form, 
+                            como sus siglas lo indican, permite crear, leer, actualizar, y borrar usuarios. Esta fue desarrollada 
+                            con una API, cuya documentación se encuentra 
+                            <a href="https://users-crud.academlo.tech/swagger/" target="_blank" class="description__link">aquí</a>.
+                        </p>
+                    </div>
+                    <div class="projects__buttons">
+                        <button class="btn projects__button" type="button">
+                            <a href="https://crud-byjj.netlify.app/" target="_blank" class="project__btn-link">
+                                IR AL PROYECTO
+                            </a>
+                        </button>
+                        <button class="btn projects__button" type="button">
+                            <a href="https://github.com/AlzateJJ/CRUD-project" target="_blank" class="project__btn-link">
+                                VER CÓDIGO
+                            </a>
+                        </button>
+                    </div>
+                </article>
+                <!-- Project 8 -->
+                <article class="project">
+                    <div class="img__container">
+                        <img src="./assets/imgs__proyectos/project8.png" alt="" class="project__img">
+                    </div>
+                    <div class="project__description">
+                        <h3 class="project__description-title">
+                            Pokedex Page
+                        </h3>
+                        <p class="project__description-paragraph">
+                            La Pokedex Page, es una página web responsive, desarrollada con HTML, CSS, JavaScript, 
+                            React, React-Router-Dom y Redux Toolkit, en la que después de que el usuario ingresa su nombre,
+                            puede acceder a todos los pokemones, los puede filtrar por tipo y por cadenas de caracteres en su nombre,
+                            y puede ver las características y estadísticas a detalle de cada uno.
+                        </p>
+                    </div>
+                    <div class="projects__buttons">
+                        <button class="btn projects__button" type="button">
+                            <a href="https://pokepage-byjj.netlify.app/" target="_blank" class="project__btn-link">
+                                IR AL PROYECTO
+                            </a>
+                        </button>
+                        <button class="btn projects__button" type="button">
+                            <a href="https://github.com/AlzateJJ/pokemon-project" target="_blank" class="project__btn-link">
+                                VER CÓDIGO
+                            </a>
+                        </button>
+                    </div>
+                </article>
             </div>
         </section>
 
