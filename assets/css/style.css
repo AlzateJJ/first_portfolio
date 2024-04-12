@@ -841,16 +841,16 @@
           }
         }
 
-        .footer__social-link,
-        .footer__copy {
-          text-align: center;
-          margin-top: 2rem;
-          margin-bottom: 0;
-          border-top: 1px solid ;
-          padding-top: 2rem;
-        }
+        /* .footer__social-link, */
       }
     }
+  }
+  .footer__copy {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 0;
+    border-top: 1px solid ;
+    padding-top: 2rem; 
   }
 }
 
