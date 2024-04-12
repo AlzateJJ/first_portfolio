@@ -753,9 +753,8 @@
                 color: rgb(28, 28, 247);
               }
 
-              &:hover {
-                /* font-size: large; */
-              }
+              /* &:hover {
+              } */
           }
       }
     

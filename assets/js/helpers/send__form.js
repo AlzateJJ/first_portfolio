@@ -13,15 +13,14 @@ function closeModal() {
 function sendEmail(e) {
   e?.preventDefault()
   const params = {
-    name: document.getElementById('name').value,
-    email: document.getElementById('email').value,
-    subject: document.getElementById('subject').value,
+    from_name: document.getElementById('subject').value,
+    user_name: document.getElementById('name').value,
+    user_email: document.getElementById('email').value,
     message: document.getElementById('message').value
   }
 
   if (params.name && params.email && params.subject && params.message) {
     console.log(params)
-    //emailjs.send("service_xdjou6w","template_0om4a7q"
     emailjs.send("service_xdjou6w","template_0om4a7q", params)
       .then(openModal())
       .catch(err => console.log(err))
