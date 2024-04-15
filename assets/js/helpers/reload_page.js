@@ -2,7 +2,7 @@ function resetToHome() {
     window.location.hash = '#home'
 
     document.addEventListener('DOMContentLoaded', function () {
-        document.getElementById('c6').checked = true;
+        document.getElementById('c7').checked = true;
     });
 }
 

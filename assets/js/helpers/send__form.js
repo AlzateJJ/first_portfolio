@@ -19,11 +19,14 @@ function sendEmail(e) {
     message: document.getElementById('message').value
   }
 
-  if (params.name && params.email && params.subject && params.message) {
+  if (params.from_name && params.user_name && params.user_email && params.message) {
     console.log(params)
     emailjs.send("service_xdjou6w","template_0om4a7q", params)
       .then(openModal())
       .catch(err => console.log(err))
+  } else {
+    console.log('no estan todos los parametros')
+    console.log(params)
   }
 
 }

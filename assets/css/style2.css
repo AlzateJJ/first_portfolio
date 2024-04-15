@@ -1076,7 +1076,7 @@
       .skills__wrapper {
 
         .skills__cards {
-          height: 100px;
+          height: 500px;
           flex-direction: row;
 
           .skills__card {
@@ -1099,7 +1099,7 @@
 
           .skills__input {
             &:checked+label {
-              height: 800px;
+              height: 500px;
               width: 300px;
             }
           }
