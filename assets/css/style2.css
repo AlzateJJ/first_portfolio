@@ -568,12 +568,13 @@
     margin-top: 2rem;
     display: flex;
     flex-direction: column;
+    gap: 1.3em;
 
     .about__card {
       background-color: var(--color-white-3);
       padding: 2rem;
       border-radius: 5px;
-      box-shadow: 0px 10px 10px rgb(240, 117, .3);
+      box-shadow: 0px 10px 10px rgba(231, 116, 9, 0.253);
 
       .about__card--img {
         width: 100%;
@@ -682,10 +683,13 @@
       align-items: center;
       flex-direction: column;
       margin-top: var(--mr-4);
+
       .skills__tags-container {
         display: flex;
         flex-wrap: wrap;
         gap: 1rem;
+        justify-content: center;
+        align-items: center;
 
         .skills__tag {
           display: inline-block;
@@ -716,15 +720,16 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 1.5em;
+    /* gap: 2.5em; */
 
     .project {
-      width: 400px;
+      width: 380px;
       background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(57, 61, 57), rgb(0, 0, 0));
       border-radius: 1em;
       overflow: hidden;
       box-shadow: 5px 7px 10px rgba(0, 0, 0, 0.5);
       transition: transform 0.3s ease;
+      margin: 1.5em 1em 1.5em;
 
       .img__container {
         /* border: 5px green solid; */
@@ -1044,6 +1049,7 @@
           .skills__card {
             width: 100px;
             margin: 0 10px;
+            height: 100%;
 
             .skills__card_row {
               width: 100px;
