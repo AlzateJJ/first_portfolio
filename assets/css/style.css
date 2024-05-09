@@ -529,6 +529,7 @@
         animation: typing 2s infinite steps(21) alternate,
         blink .3s infinite step-end alternate;
         overflow: hidden;
+        color: red;
       }
     }
 
